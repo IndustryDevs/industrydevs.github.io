@@ -10,8 +10,8 @@
   --linkCol: #2a86d1;
 
   background-color: var(--backgroundCol);
-    color: var(--textCol);
-    font-size: 22px;
+  color: var(--textCol);
+  font-size: 22px;
   font-family: mainFont;
 }
 
@@ -83,27 +83,30 @@ pi
   color: var(--vaniaLight);
 }
 
-img
+/* img
 {
   width: 100%;
-}
+} */
 
 a:link
 {
   color: var(--linkCol);
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:visited
 {
   color: var(--linkCol);
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover
 {
   color: var(--linkCol);
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .ytvideo
@@ -122,6 +125,8 @@ a:hover
 
   padding-bottom: 32px;
   padding-top: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
 
   /* padding: 64px; */
   background-color: var(--textCol);
