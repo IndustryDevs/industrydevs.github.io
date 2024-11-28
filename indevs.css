@@ -11,7 +11,6 @@
   background-color: var(--backgroundCol);
   color: var(--textCol);
   font-size: 22px;
-  font-family: mainFont;
 }
 
 .main
@@ -41,17 +40,10 @@ p
   margin-top: 0px;
 }
 
-pi
-{
-  margin-top: 0px;
-  font-style: italic;
-  color: var(--vaniaLight);
-}
-
-/* img
+img
 {
   width: 100%;
-} */
+}
 
 a:link
 {
@@ -101,6 +93,7 @@ maintitle
 {
   font-size: 48px;
   font-weight:bold;
+  line-height: 0;
 }
 
 .justify
@@ -108,7 +101,6 @@ maintitle
   max-width: var(--siteWidth);
   margin: auto;
   padding: 12px;
-  line-height: 1.4;
   text-align: justify;
 }
 
@@ -132,7 +124,7 @@ yellowText
 
 .padding
 {
-  padding: 20px;
+  padding: 18px;
 }
 
 
