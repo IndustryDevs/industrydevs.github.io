@@ -5,6 +5,7 @@
 
   --backgroundCol: #ffffff;
   --textCol: #262626;
+  --textColLight: #5e5e5e;
   --yellowCol: #fff505;
   --linkCol: #2a86d1;
 
@@ -87,6 +88,12 @@ a:hover
 
   /* padding: 64px; */
   background-color: var(--textCol);
+}
+
+.entrySlug
+{
+  font-style: italic;
+  color: var(--textColLight);
 }
 
 maintitle
